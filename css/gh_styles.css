@@ -22,6 +22,9 @@ body {
 }
 .blue_btn:hover {
 	background: #012B58;
+	transition-property: background;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
 }
 .color_sea_green {
 	color: LightSeaGreen;
@@ -86,7 +89,10 @@ main {
 	box-shadow: 5px 10px 18px black;
 	border-radius: 10px;
 	opacity: 0.7;
-	background-color: #3E1F47   ;
+	transition-property: opacity;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+	background-color: #3E1F47;
 }
 .portfolio_item:hover {
 	opacity: 1;
