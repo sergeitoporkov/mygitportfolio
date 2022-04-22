@@ -1,0 +1,125 @@
+/* */@charset "utf-8";
+/*common styles*/
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #003F64 ;
+	font-family:Sans-serif;
+	color: #ccc;
+}
+
+.blue_btn{
+	display: inline-block;
+	background: #061E37;
+	padding: 10px 25px 10px 25px;
+	font-family: Sans-serif;
+	border: 0px;
+	text-decoration:none;
+	font-size: 1.28EM; 
+	font-weight: bold;
+	color:#aaa;
+	border-radius: 6px;
+}
+.blue_btn:hover {
+	background: #012B58;
+}
+.color_sea_green {
+	color: LightSeaGreen;
+}
+/* Grid ======================================= */
+.container {
+	display: grid;	
+	grid-gap: 30px;
+	width: 100%;
+	margin: 0px;
+	background-color: #2A2A2A ;
+}
+.header{grid-area: 1 / 1 / 2 / 8;}
+
+.main_content{grid-area: 2 / 2 / 2 / 7;}
+.footer{grid-area: 3 / 1 / 4 / 8;}
+
+/* a11y ======================================= */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/* header ======================================= */
+.header {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin-top: 0px;
+	/* width: 100%; */
+	
+	text-align: center;
+	background-color: #003F64    ;
+}
+.header h1 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+/* main content ======================================= */
+main {
+	width: 100%;
+	margin:auto;
+	margin-bottom: 70px;
+	background-color: 32A2A2A ;
+}
+.portfolio {
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.portfolio_item {
+	margin-top: 60px;
+	box-shadow: 5px 10px 18px black;
+	border-radius: 10px;
+	opacity: 0.7;
+	background-color: #3E1F47   ;
+}
+.portfolio_item:hover {
+	opacity: 1;
+}
+.portfolio_item h3 {
+	text-align: center;
+	color: CornflowerBlue;
+	font-size: 2.0em;
+}
+.portfolio_item_cont {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.portfolio_item_cont img {
+	/* opacity: 0.4; */
+	width: 420px; 
+	height:200px;
+}
+.portfolio_item_cont img:hover {
+	/* opacity: 0.9; */
+}
+.portfolio_item_cont .blue_btn {
+	padding: 20px 0px 20px 0px;
+	border-radius: 0px 0px 10px 10px;
+	text-align: center;
+}
+.blue_btn.btn_prev {
+	border-radius: 0px;
+}
+footer {
+	background-color: #003F64   ;
+	height: 40%;
+	text-align: center;
+	padding: 50px 0px 50px 0px;
+}
