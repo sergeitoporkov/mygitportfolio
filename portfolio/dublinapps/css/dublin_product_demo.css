@@ -1,0 +1,159 @@
+.main_demo_page {
+	max-width: 1000px;
+	background-color: #E7E8EA;
+	border-radius: 4px;
+	margin-top: 30px;
+}
+.content_header {
+	height: 100px;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-image: linear-gradient(0.0deg, rgba(0,0,0,0.07) 0%, rgba(255,255,255,0.07) 100%);
+}
+.content_header_text {
+	margin-left: 40px;
+}
+.content_header_text h2 {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Colaborate';
+	font-size: 27px;
+	line-height: 15px;
+	font-weight: 300;
+	color: #505050;
+}
+.content_header_text span {
+		margin: 0px;
+	font-family: Colaborate;
+	font-size: 15px;
+	line-height: 1px;
+	font-weight: 300;
+	color: #5f7390;
+}
+.product_page_search {
+	margin-right: 40px;
+}
+
+.demo_header {
+	margin-left: 100px;
+}
+.product_section_demo_header {
+	text-align: center;
+	font-family: Colaborate;
+	font-size: 24px;
+	line-height: 23px;
+	font-weight: 300;
+	color: #505050;
+}
+.product_section_demo_header span {
+	margin: 0px;
+	font-family: Colaborate;
+	font-size: 15px;
+	line-height: 1px;
+	font-weight: 300;
+	color: #5f7390;
+}
+.product_section_demo_content  {
+	display: flex;
+	flex-wrap: wrap;
+}
+.product_section_content_demo_list {
+	list-style-image: url('../assets/images/home_page/var_pass_bullet.png');
+	margin-left: 20px;
+	font-family: Colaborate;
+	font-size: 15px;
+	line-height: 30px;
+	font-weight: 300;
+	color: #828181;
+}
+.demo_section {
+	width: 85%;
+	margin: auto;
+	margin-top: 60px;
+	background-color: white;
+}
+.demo_numbers {
+	position: relative;
+	width: 395px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.demo_numbers img {
+	position: absolute;
+	bottom: -15px;
+}
+.demo_section_head_text {
+	text-align: center;
+	margin-top: 40px;
+}
+.demo_section_head_text h3 {
+	
+	padding-top: 40px;
+	font-family: 'Colaborate';
+	font-size: 27px;
+	line-height: 15px;
+	font-weight: 800;
+	color: #505050;
+}
+.demo_section_head_text span {
+	margin: 0px;
+	font-family: Colaborate;
+	font-size: 15px;
+	line-height: 1px;
+	font-weight: 300;
+	color: #5f7390;
+}
+.demo_section_buttons {
+	list-style: none;
+	padding: 0px;
+	width: 50%;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.product_section_demo_content {
+	margin-left: 50px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.demo_section_text {
+	margin-left: 50px;
+}
+.demo_section_text h3 {
+	font-family: Colaborate;
+	font-size: 27px;
+	line-height: 23px;
+	font-weight: 300;
+	color: #505050;
+}
+.demo_section_text p {
+	font-family: Colaborate;
+	font-size: 15px;
+	line-height: 1.2;
+	font-weight: 300;
+	color: #828181;
+}
+
+.demo_section_text_list {
+	list-style-image: url('../assets/images/home_page/var_pass_bullet.png');
+	margin: 0px;
+	/* padding: 0px; */
+	font-family: Colaborate;
+	font-size: 15px;
+	line-height: 30px;
+	font-weight: 300;
+	color: #828181;
+	margin-left: 50px;
+}
+
+
+
+
+
+
+
+

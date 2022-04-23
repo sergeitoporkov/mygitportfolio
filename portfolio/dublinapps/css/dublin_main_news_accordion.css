@@ -1,0 +1,76 @@
+
+.news_accordion {
+	width: 812;	
+
+}
+hr {
+	margin: 0px;
+	color: #eee;
+}
+.accordion_btn {
+		border: none;
+    margin: 0px;
+    cursor: pointer;
+    padding: 7px;
+    width: 100%;
+    text-align: left;
+    background-color: #E7E8EA;
+		font-family: Colaborate;
+		font-size: 15px;
+		line-height: 3px;
+		font-weight: 300;
+		color: #828181;
+    
+    
+    transition: 0.4s;
+}
+.accordion_content {
+		font-family: Colaborate;
+		font-size: 15px;
+		line-height: 20px;
+		font-weight: 300;
+		color: #828181;
+		margin: 0px;
+		padding: 3px;
+    background-color: #E7E8EA;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-out;
+}
+.accordion_content p {
+	margin: 0px;
+}
+.active, .accordion_btn:hover {
+    
+		padding: 3px;
+}
+
+.accordion_btn:before {
+		
+    content: url("../assets/images/home_page/news_accordion_bullet.png");
+    color: #aaa;
+    font-weight: bold;
+		margin-right: 5px;
+    margin-left: 5px;
+		padding: 3px;
+}
+
+.active:before {
+    content: "\2212";
+		
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

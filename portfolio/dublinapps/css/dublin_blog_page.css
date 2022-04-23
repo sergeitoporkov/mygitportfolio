@@ -1,0 +1,129 @@
+.header_blog {
+	margin-bottom: 0px;
+}
+.blog_content {
+	display: flex;
+	
+}
+.blog_sidebar {
+	min-width: 225px;
+	background-color: 
+}
+.blog_item {
+	display: flex;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+.blog_item_text {
+	display: flex;
+	flex-direction: column;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.blog_item_text h2 {
+	margin: 0px;
+	margin-bottom: 10px;
+	font-family: Colaborate;
+	font-size: 27px;
+	line-height: 18px;
+	font-weight: 300;
+	color: #505050;
+}
+.blog_item_text span {
+	font-family: Arial;
+	font-size: 11px;
+	line-height: 20px;
+	font-weight: 400;
+	color: #5f7390;
+	font-size: 12px;
+}
+.blog_item_text p {
+	margin-bottom: 5px;
+	font-family: Colaborate;
+	font-size: 15px;
+	line-height: 1.2;
+	font-weight: 300;
+	color: #828181;
+	}
+.blog_links {
+	display: flex;
+	align-items: flex-start;
+	align-content: flex-start;
+	justify-content: space-between;
+}
+.blog_item_socials {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	margin: 0px;
+	padding: 0px;
+}
+.blog_item_socials li {
+	margin-left: 10px;
+}
+.blog_btn {
+	line-height: 17px;
+	padding: 5px 5px 5px 5px;
+
+}
+hr.blog {
+	color: White   ;
+	margin-top: 15px;
+}
+.blog_pagination {
+	display: flex;
+	justify-content: space-around;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.blog_pagination a {
+	padding: 7px 9px 7px 9px;
+	font-family: Arial;
+	font-size: 11px;
+	line-height: 1.2;
+	font-weight: 400;
+	color: #ffffff;
+	font-family: 'Comic Sans MS';
+	background-image: linear-gradient(0.0deg, #424255 0%, #67677f 100%);
+	text-decoration: none;
+	border-radius: 5px; 	
+}
+
+.blog_pagination a.blog_active,
+.blog_pagination a:hover {
+	background-image: linear-gradient(0.0deg, #244c89 0%, #2c69bf 100%);
+}
+.blog_sidebar {
+	background: linear-gradient(to left, #eee 85%, #ddd );
+}
+.blog_sidebar h2 {
+	margin: 20px;
+	font-family: Colaborate;
+	font-size: 27px;
+	line-height: 20px;
+	font-weight: 300;
+	color: #505050;
+}
+.blog_slidebar_list {
+	padding-left: 20px;
+}
+.sidebar_foto {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.sidebar_foto a:hover {
+	opacity: 0.1;
+}
+
+
+
+
+
+
+
+
+

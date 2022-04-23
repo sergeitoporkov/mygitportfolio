@@ -1,0 +1,439 @@
+.header_inner_page_product {
+	margin-bottom: 0px;
+}
+.innerpage_product_content {
+	display: flex;
+}
+.inner_header_text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.inner_header_text h3 {
+	margin-bottom: 10px;
+}
+.product_inner {
+	display: flex;
+	flex-direction: column;
+	margin: 40px;
+}
+.product_inner h2, h3 {
+	margin: 0px;
+	padding: 0px;
+	font-family: Colaborate;
+	font-size: 31px;
+	line-height: 23px;
+	font-weight: 300;
+	color: #505050;
+}
+.product_inner span {
+	margin-left: 15px;
+	font-family: Arial;
+	font-size: 11px;
+	line-height: 7px;
+	font-weight: 400;
+	color: #5f7390;
+	font-size: 12px;
+}
+
+.product_inner p, ol {
+	font-family: Colaborate;
+	font-size: 15px;
+	line-height: 1.2;
+	font-weight: 300;
+	color: #828181;
+}
+.product_inner_present {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 30px;
+}
+.product_inn_head_img {
+	position: relative;
+}
+.product_inn_price {
+	position: absolute;
+	right: 100px;
+	
+	bottom: 157px;
+}
+.blue_btn_product_inn {
+	line-height: 17px;
+	padding: 5px 5px 5px 5px;
+}
+.blue_btn_order_now {
+	display: block;
+	width: 30%;
+	margin: auto;
+	border: 0;
+	border-radius: 12px;
+	text-align: center;
+	color: white;
+	background: linear-gradient(#2C6AC0, #164182);
+	font-size: 28.9px;
+	text-decoration: none;
+	padding: 0px 35px 0px 35px;
+}
+.blue_btn_order_now:hover {
+	background: linear-gradient(#164182, #2C6AC0);
+}
+.inn_product_head_list {
+	margin-left: 40px;
+}
+table {
+	width: 100%;
+	border: 1px solid #aaa;
+	margin-bottom: 50px;
+}
+th, td, table {
+	text-align: center;
+	border: 1px solid #aaa;
+  border-collapse: collapse;
+}
+/* Payment modal window ======================================================= */
+.payment_modal_window {
+	display: none;
+	border: 0;
+	position: fixed;
+	left: 0;
+  top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+}
+
+.payment_box {
+	position: relative;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 60% auto;
+	margin-top: 200px;
+	background-color: white;
+	background-image: url('../assets/images/popups/payment_popup.png');
+	background-position: right bottom;
+	background-repeat: no-repeat; 
+	width: 678px;
+	padding: 35px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+}
+.payment_modal_window_content {
+	padding: 20px;
+}
+.payment_box_header {
+	grid-area: 1 / 1 / 2 / 2;
+}
+.payment_box_header h4 {
+	margin: 0px;
+	padding: 0px;
+	font-family: Colaborate;
+	font-size: 31px;
+	line-height: 23px;
+	font-weight: 300;
+	color: #505050;
+}
+.payment_box_header span {
+	margin-left: 5px;
+	font-family: Arial;
+	font-size: 13px;
+	line-height: 7px;
+	font-weight: 400;
+	color: #5f7390;
+}
+.payment_box_count {
+	display: flex;
+	align-items: center;
+	grid-area: 2 / 1 / 3 / 2;
+	padding: 10px;
+	background-color: Gainsboro ;
+	border-radius: 7px;
+}
+.payment_box_count img:nth-child(1) {
+	margin-left: 10px;
+}
+.payment_box_count img:nth-child(2) {
+	margin-left: 10px;
+}
+.payment_box_count span:nth-child(3) {
+	margin-left: 30px;
+	
+	font-size: 31px;
+	line-height: 7px;
+}
+.payment_box_total {
+	grid-area: 3 / 1 / 4 / 2;
+	font-size: 25px;
+	line-height: 20px;
+	margin-left: 10px;
+}
+.payment_box_form {
+	grid-area: 4 / 1 / 5 / 2;
+	border-radius: 7px;
+	background-color: Gainsboro;
+}
+.payment_box_form form {
+	display: flex;
+	padding: 5px;
+}
+
+.payment_box_form form input {
+	background-color: inherit;
+	border: none;
+	font-size: 20px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 20px;
+	margin-right: 20px;
+	flex-grow: 2;
+}
+.payment_box_form form button {
+	flex-grow: 1;
+	border: 0;
+	border-radius: 7px;
+	padding: 7px 10px 7px 10px;
+	text-align: center;
+	color: white;
+	background: #48485c;
+	font-size: 18.9px;
+	text-decoration: none;
+}
+.info {
+	grid-area: 5 / 1 / 6 / 2;
+	display: flex;
+	justify-content: space-around;
+}
+.info span {
+	font-size: 15px;
+	line-height: 14px;
+}
+.info img {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.paypal_section {
+	grid-area: 1 / 2 / 6 / 3;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	border-left: 1px solid gray;
+	padding-top: 40px;
+}
+.paypal_section img {
+	margin-right: 15px;
+}
+
+.paypal_section h4 {
+	margin: 0px;
+	padding: 0px;
+	font-family: Colaborate;
+	font-size: 31px;
+	line-height: 22px;
+	font-weight: 300;
+	color: #505050;
+}
+.paypal_section span {
+	font-family: Arial;
+	font-size: 13px;
+	line-height: 7px;
+	font-weight: 400;
+	color: #5f7390;
+}
+.payment_modal_window_close {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	border: none;
+	background-color: inherit;
+}
+/* Login modal window ======================================================= */
+.login_modal_window {
+	display: none;
+	border: 0;
+	position: fixed;
+	left: 0;
+  top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+}
+.login_box {
+	position: relative;
+	margin-top: 200px;
+	background-color: white;
+	background-image: url('../assets/images/popups/ligin_popup_bg.png');
+	background-position: right top;
+	background-repeat: no-repeat; 
+	width: 404px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+}
+.login_modal_window_close {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	border: none;
+	background-color: inherit;
+	font-weight: 700;
+}
+.login_modal_window_close:hover {
+	color: red;
+}
+.login_box_header h4 {
+	margin: 0px;
+	padding: 0px;
+	font-family: Colaborate;
+	font-size: 31px;
+	line-height: 23px;
+	font-weight: 300;
+	color: #505050;
+}
+.login_box_header span {
+	margin-left: 5px;
+	font-family: Arial;
+	font-size: 13px;
+	line-height: 7px;
+	font-weight: 400;
+	color: #5f7390;
+}
+.login_box_form form {
+	display: flex;
+	flex-direction: column;
+	row-gap: 20px;
+	padding-left: 55px;
+	padding-right: 55px;
+	padding-top: 25px;
+	padding-bottom: 15px;
+}
+.login_box_form input {
+	border-radius: 7px;
+	background-color: Gainsboro;
+	border: none;
+	padding: 10px;
+	font-size: 14px;
+}
+.login_box_form_interactive {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.login_box_form a {
+	text-decoration: none;
+	color: #5f7390;
+	font-size: 15px;
+}
+.login_box_form a:hover {
+	text-decoration: underline;
+}
+.login_box_form button {
+	border: 0;
+	border-radius: 7px;
+	padding: 7px 25px 7px 25px;
+	text-align: center;
+	color: white;
+	background: #48485c;
+	font-size: 18.9px;
+	text-decoration: none;
+}
+/* Yes/no modal window ======================================================= */
+.yes_no_modal_window {
+	display: none;
+	border: 0;
+	position: fixed;
+	left: 0;
+  top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+}
+.yes_no_box {
+	position: relative;
+	margin-top: 200px;
+	background-color: white; 
+	width: 423px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+}
+.yes_no_modal_window_close {
+	position: absolute;
+	top: 2px;
+	right: 3px;
+	border: none;
+	background-color: inherit;
+	font-weight: 700;
+	font-size: 21px;
+	
+}
+.yes_no_modal_window_close:hover {
+	color: red;
+}
+.yes_no__box_form form {
+	display: flex;
+	flex-direction: column;
+	row-gap: 10px;
+	padding-left: 40px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.yes_no_header h4 {
+	margin: 0px;
+	padding: 0px;
+	font-family: Colaborate;
+	font-size: 21px;
+	line-height: 12px;
+	font-weight: 300;
+	color: #505050;
+}
+.yes_no_header span {
+	margin-left: 5px;
+	font-family: Arial;
+	font-size: 13px;
+	line-height: 7px;
+	font-weight: 400;
+	color: #5f7390;
+}
+.yes_no_login_box_btns button {
+	border: 0;
+	border-radius: 7px;
+	padding: 7px 20px 7px 10px;
+	text-align: center;
+	color: white;
+	background: #48485c;
+	font-size: 18.9px;
+	text-decoration: none;
+}
+.yes_no_login_box_btns button:hover {
+	background: red;
+	transition-property: background;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+.yes_no_login_box_btns button:nth-child(1) {
+	margin-right: 40px;
+}
+.yes_no_login_box_btns button:nth-child(1):hover {
+	background: green;
+	transition-property: background;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+.yes_no_btn {
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.yes_no_btn img {
+	margin-right: 15px;
+}
+
+
+
+
+

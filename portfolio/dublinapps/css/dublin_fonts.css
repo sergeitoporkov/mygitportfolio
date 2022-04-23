@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Chunk Five';
+  font-style: normal;
+  src: url('../assets/fonts/ChunkFive/ChunkFive-Regular.otf'); 
+  
+}
+@font-face {
+  font-family: 'Alexandria FLF';
+  font-style: normal;
+  src: url('../assets/fonts/alexandria-flf-font/AlexandriaflfBold-BW0l.ttf'); 
+	src: url('../assets/fonts/alexandria-flf-font/Alexandriaflf-Rpvl.ttf');
+  
+}
+@font-face {
+  font-family: 'Colaborate';
+  font-style: normal;
+  src: url('../assets/fonts/Colaborate/ColabBol.otf'); 
+	src: url('../assets/fonts/Colaborate/ColabLig.otf');
+	src: url('../assets/fonts/Colaborate/ColabMed.otf');
+	src: url('../assets/fonts/Colaborate/ColabReg.otf');
+	src: url('../assets/fonts/Colaborate/ColabThi.otf');
+  
+}
